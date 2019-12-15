@@ -10,5 +10,5 @@ The [challenge](https://www.hackingwithswift.com/100/swiftui) was started by Pau
 
 ## Projects 
 
-* [Milestone Project 5: Remember Me](https://github.com/euklit/RememberMe)
+* [Milestone Project 5: Remember Me](https://github.com/euklit/100-days-of-swiftui/tree/master/RememberMe)
 
