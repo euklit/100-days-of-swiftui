@@ -12,3 +12,4 @@ The [challenge](https://www.hackingwithswift.com/100/swiftui) was started by Pau
 
 * [Milestone Project 5: Remember Me](https://github.com/euklit/100-days-of-swiftui/tree/master/RememberMe)
 
+![Farmers Market Finder Demo](RememberMe/Screenshots/tour.gif)
