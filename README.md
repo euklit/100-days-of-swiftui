@@ -5,11 +5,15 @@ If you have any suggestions or questions feel free to [tweet me](https://twitter
 
 
 ## About the challenge
-The [challenge](https://www.hackingwithswift.com/100/swiftui) was started by Paul Hudson and is aimed at beginners. He provides materials for 100 days - some days are in a tutorial style, others provide programming challenges and quizzes and there are days where you have to build apps completely on your own called milestone projects. 
+The [challenge](https://www.hackingwithswift.com/100/swiftui) was started by Paul Hudson and is aimed at beginners. He provides materials for 100 days - some days are in a tutorial style, others provide programming challenges and quizzes and there are days where you have to build apps completely on your own called 'milestone projects'. 
 
 
 ## Projects 
 
 * [Milestone Project 5: Remember Me](https://github.com/euklit/100-days-of-swiftui/tree/master/RememberMe)
 
-![Farmers Market Finder Demo](RememberMe/Screenshots/tour.gif)
+![remember me Demo](RememberMe/Screenshots/tour.gif)
+
+* [Milestone Project 6: Dice Paradise](https://github.com/euklit/100-days-of-swiftui/tree/master/DiceParadise)
+
+![dice paradise Demo](DiceParadise/Screenshots/demo.gif)
