@@ -9,6 +9,6 @@ On day 78 the app was extended so you can take pictures with the camera and save
 
 Known bugs: pictures dont show correctly on main screen
 
-![add view screenshot](RememberMe/Screenshots/AddPersonView.png) 
-![main screen screenshot](RememberMe/Screenshots/MainScreen.png)
-![main screen screenshot](RememberMe/Screenshots/DetailView.png)
+![add view screenshot](Screenshots/AddPersonView.png) 
+![main screen screenshot](Screenshots/MainScreen.png)
+![main screen screenshot](Screenshots/DetailView.png)
