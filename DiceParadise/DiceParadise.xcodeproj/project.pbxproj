@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D746D41E23B8BA2100244D0F /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D746D41D23B8BA2100244D0F /* Dice.swift */; };
+		D77048F223B9F474009A6C8E /* ThrowCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77048EE23B9F474009A6C8E /* ThrowCD+CoreDataClass.swift */; };
+		D77048F323B9F474009A6C8E /* ThrowCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77048EF23B9F474009A6C8E /* ThrowCD+CoreDataProperties.swift */; };
+		D77048F423B9F474009A6C8E /* DiceCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77048F023B9F474009A6C8E /* DiceCD+CoreDataClass.swift */; };
+		D77048F523B9F474009A6C8E /* DiceCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77048F123B9F474009A6C8E /* DiceCD+CoreDataProperties.swift */; };
+		D777D2FC23B74F3C00BC0541 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777D2FB23B74F3C00BC0541 /* Shapes.swift */; };
+		D77BC97A23B65303007EA577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BC97923B65303007EA577 /* AppDelegate.swift */; };
+		D77BC97C23B65303007EA577 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BC97B23B65303007EA577 /* SceneDelegate.swift */; };
+		D77BC97F23B65303007EA577 /* DiceParadise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D77BC97D23B65303007EA577 /* DiceParadise.xcdatamodeld */; };
+		D77BC98123B65303007EA577 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BC98023B65303007EA577 /* ContentView.swift */; };
+		D77BC98323B65304007EA577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77BC98223B65304007EA577 /* Assets.xcassets */; };
+		D77BC98623B65304007EA577 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77BC98523B65304007EA577 /* Preview Assets.xcassets */; };
+		D77BC98923B65304007EA577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77BC98723B65304007EA577 /* LaunchScreen.storyboard */; };
+		D77BC99323B65554007EA577 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BC99223B65554007EA577 /* PlayView.swift */; };
+		D77BC99523B65569007EA577 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77BC99423B65569007EA577 /* HistoryView.swift */; };
+		D784978F23BBD1F20092B6AC /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784978E23BBD1F20092B6AC /* DiceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D746D41D23B8BA2100244D0F /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		D77048EE23B9F474009A6C8E /* ThrowCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThrowCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D77048EF23B9F474009A6C8E /* ThrowCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThrowCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D77048F023B9F474009A6C8E /* DiceCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiceCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D77048F123B9F474009A6C8E /* DiceCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiceCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D777D2FB23B74F3C00BC0541 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		D77BC97623B65303007EA577 /* Dice Paradise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Paradise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77BC97923B65303007EA577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D77BC97B23B65303007EA577 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D77BC97E23B65303007EA577 /* DiceParadise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiceParadise.xcdatamodel; sourceTree = "<group>"; };
+		D77BC98023B65303007EA577 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D77BC98223B65304007EA577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D77BC98523B65304007EA577 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D77BC98823B65304007EA577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D77BC98A23B65304007EA577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77BC99223B65554007EA577 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		D77BC99423B65569007EA577 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		D784978E23BBD1F20092B6AC /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77BC97323B65303007EA577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D77BC96D23B65303007EA577 = {
+			isa = PBXGroup;
+			children = (
+				D77BC97823B65303007EA577 /* DiceParadise */,
+				D77BC97723B65303007EA577 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D77BC97723B65303007EA577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D77BC97623B65303007EA577 /* Dice Paradise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D77BC97823B65303007EA577 /* DiceParadise */ = {
+			isa = PBXGroup;
+			children = (
+				D784979323BBEB4A0092B6AC /* CoreData */,
+				D784979223BBEB130092B6AC /* Views */,
+				D746D41D23B8BA2100244D0F /* Dice.swift */,
+				D777D2FB23B74F3C00BC0541 /* Shapes.swift */,
+				D77BC97923B65303007EA577 /* AppDelegate.swift */,
+				D77BC97B23B65303007EA577 /* SceneDelegate.swift */,
+				D77BC98223B65304007EA577 /* Assets.xcassets */,
+				D77BC98723B65304007EA577 /* LaunchScreen.storyboard */,
+				D77BC98A23B65304007EA577 /* Info.plist */,
+				D77BC97D23B65303007EA577 /* DiceParadise.xcdatamodeld */,
+				D77BC98423B65304007EA577 /* Preview Content */,
+			);
+			path = DiceParadise;
+			sourceTree = "<group>";
+		};
+		D77BC98423B65304007EA577 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D77BC98523B65304007EA577 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D784979223BBEB130092B6AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D77BC98023B65303007EA577 /* ContentView.swift */,
+				D77BC99423B65569007EA577 /* HistoryView.swift */,
+				D77BC99223B65554007EA577 /* PlayView.swift */,
+				D784978E23BBD1F20092B6AC /* DiceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D784979323BBEB4A0092B6AC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D77048EE23B9F474009A6C8E /* ThrowCD+CoreDataClass.swift */,
+				D77048EF23B9F474009A6C8E /* ThrowCD+CoreDataProperties.swift */,
+				D77048F023B9F474009A6C8E /* DiceCD+CoreDataClass.swift */,
+				D77048F123B9F474009A6C8E /* DiceCD+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D77BC97523B65303007EA577 /* DiceParadise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77BC98D23B65304007EA577 /* Build configuration list for PBXNativeTarget "DiceParadise" */;
+			buildPhases = (
+				D77BC97223B65303007EA577 /* Sources */,
+				D77BC97323B65303007EA577 /* Frameworks */,
+				D77BC97423B65303007EA577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceParadise;
+			productName = DiceParadise;
+			productReference = D77BC97623B65303007EA577 /* Dice Paradise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D77BC96E23B65303007EA577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = euklit;
+				TargetAttributes = {
+					D77BC97523B65303007EA577 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = D77BC97123B65303007EA577 /* Build configuration list for PBXProject "DiceParadise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D77BC96D23B65303007EA577;
+			productRefGroup = D77BC97723B65303007EA577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77BC97523B65303007EA577 /* DiceParadise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77BC97423B65303007EA577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77BC98923B65304007EA577 /* LaunchScreen.storyboard in Resources */,
+				D77BC98623B65304007EA577 /* Preview Assets.xcassets in Resources */,
+				D77BC98323B65304007EA577 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77BC97223B65303007EA577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77048F523B9F474009A6C8E /* DiceCD+CoreDataProperties.swift in Sources */,
+				D77BC99523B65569007EA577 /* HistoryView.swift in Sources */,
+				D77BC97A23B65303007EA577 /* AppDelegate.swift in Sources */,
+				D77BC97C23B65303007EA577 /* SceneDelegate.swift in Sources */,
+				D77BC98123B65303007EA577 /* ContentView.swift in Sources */,
+				D77BC99323B65554007EA577 /* PlayView.swift in Sources */,
+				D77048F423B9F474009A6C8E /* DiceCD+CoreDataClass.swift in Sources */,
+				D777D2FC23B74F3C00BC0541 /* Shapes.swift in Sources */,
+				D784978F23BBD1F20092B6AC /* DiceView.swift in Sources */,
+				D77BC97F23B65303007EA577 /* DiceParadise.xcdatamodeld in Sources */,
+				D746D41E23B8BA2100244D0F /* Dice.swift in Sources */,
+				D77048F223B9F474009A6C8E /* ThrowCD+CoreDataClass.swift in Sources */,
+				D77048F323B9F474009A6C8E /* ThrowCD+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D77BC98723B65304007EA577 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77BC98823B65304007EA577 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D77BC98B23B65304007EA577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D77BC98C23B65304007EA577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D77BC98E23B65304007EA577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DiceParadise/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TXG7PCKD2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DiceParadise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leeCompany.DiceParadise;
+				PRODUCT_NAME = "Dice Paradise";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D77BC98F23B65304007EA577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DiceParadise/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TXG7PCKD2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DiceParadise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = leeCompany.DiceParadise;
+				PRODUCT_NAME = "Dice Paradise";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77BC97123B65303007EA577 /* Build configuration list for PBXProject "DiceParadise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77BC98B23B65304007EA577 /* Debug */,
+				D77BC98C23B65304007EA577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77BC98D23B65304007EA577 /* Build configuration list for PBXNativeTarget "DiceParadise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77BC98E23B65304007EA577 /* Debug */,
+				D77BC98F23B65304007EA577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D77BC97D23B65303007EA577 /* DiceParadise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D77BC97E23B65303007EA577 /* DiceParadise.xcdatamodel */,
+			);
+			currentVersion = D77BC97E23B65303007EA577 /* DiceParadise.xcdatamodel */;
+			path = DiceParadise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D77BC96E23B65303007EA577 /* Project object */;
+}
